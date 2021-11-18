@@ -12,27 +12,39 @@
 <div class="col-2">
 <table>
     <tr>
+        <th>
         <a href=""> Login </a>
+        </th>
     </tr>
 
     <tr>
+        <th>
         <a href=""> Projekte </a>
+        </th>
     </tr>
 
     <tr>
+        <th>
         <a href=""> Aktuelles Projekt </a>
+        </th>
     </tr>
 
-    <tr class="eingerückt">
-        <a href=""> Reiter </a>
+    <tr>
+        <th>
+        <a style="margin-left: 2em" href=""> Reiter </a>
+        </th>
     </tr>
 
-    <tr class="eingerückt">
-        <a href=""> Aufgaben </a>
+    <tr>
+        <th>
+        <a style="margin-left: 2em" href=""> Aufgaben </a>
+        </th>
     </tr>
 
-    <tr class="eingerückt">
-        <a href=""> Mitglieder </a>
+    <tr>
+        <th>
+        <a style="margin-left: 2em" href=""> Mitglieder </a>
+        </th>
     </tr>
 
 </table>
