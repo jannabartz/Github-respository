@@ -6,95 +6,78 @@
 
 </head>
 <body>
+<div class="container-fluid">
 <header class="jumbotron"> <center> <h1>  Aufgabenplaner: Todos (Aktuelles Projekt)  </h1> </center></header>
-<div class="container-fluid"></div>
 
-<div class="col-2">
-<table>
-    <tr>
-        <th>
-        <a href=""> Login </a>
-        </th>
-    </tr>
+    <div class ="row">
+        <div class="col-md-2">
 
-    <tr>
-        <th>
-        <a href=""> Projekte </a>
-        </th>
-    </tr>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <a href=""> Login </a>
+            </li>
 
-    <tr>
-        <th>
-        <a href=""> Aktuelles Projekt </a>
-        </th>
-    </tr>
+            <li class="list-group-item">
+                <a href=""> Projekte </a>
+            </li>
 
-    <tr>
-        <th>
-        <a style="margin-left: 2em" href=""> Reiter </a>
-        </th>
-    </tr>
+            <li class="list-group-item">
+                <a href=""> Aktuelles Projekt </a>
+            </li>
 
-    <tr>
-        <th>
-        <a style="margin-left: 2em" href=""> Aufgaben </a>
-        </th>
-    </tr>
+            <div style="padding-left: 40px">
+                <li class="list-group-item">
+                    <a href=""> Aufgaben </a>
+                </li>
+            </div>
 
-    <tr>
-        <th>
-        <a style="margin-left: 2em" href=""> Mitglieder </a>
-        </th>
-    </tr>
+            <div style="padding-left: 40px">
+                <li class="list-group-item">
+                    <a href=""> Reiter </a>
+                </li>
+            </div>
 
-</table>
+            <div style="padding-left: 40px">
+                <li class="list-group-item">
+                    <a href=""> Personen </a>
+                </li>
+            </div>
+        </ul>
+
 </div>
-<div class="col-10">
-    <table class="table">
-        <thead>
-        <tr>
-            <p> ToDo: </p>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <p> HTML Datei erstellen (Max Mustermann) </p>
-        </tr>
+</div>
+    <div class="row">
 
-        <tr>
-            <p> CSS Datei erstellen (Max Mustermann) </p>
-        </tr>
-        </tbody>
-    </table>
-    <table class="table">
-        <thead>
-        <tr>
-            <p> Erledigt: </p>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <p> PC eingeschaltet (Petra Müller) </p>
-        </tr>
+        <div class="col">
+                <div class="card">
+                    <div class="card-header"> ToDo: </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">HTML-Datei erstellen (Sebastian Andres)</li>
+                        <li class="list-group-item">CSS-Datei erstellen  (Janna Bartz)</li>
+                    </ul>
+                </div>
+        </div>
 
-        <tr>
-            <p> Kaffee trinken (Petra Müller) </p>
-        </tr>
-        </tbody>
-    </table>
-    <table class="table">
-        <thead>
-        <tr>
-            <p> Verschoben: </p>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <p> Für die Uni lernen (Max Mustermann) </p>
-        </tr>
-        </tbody>
-    </table>
+        <div class="col">
+                <div class="card">
+                    <div class="card-header"> Erledigt: </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">PC-eingeschaltet (Sebastian Andres)</li>
+                        <li class="list-group-item">Kaffee trinken   (Janna Bartz)</li>
+                    </ul>
+                </div>
+        </div>
 
+        <div class="col">
+                <div class="card">
+                    <div class="card-header"> Verschoben: </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">Für die Uni lernen (Sebastian Andres)</li>
+                        <li class="list-group-item">WE-Übung erledigen (Janna Bartz)</li>
+                    </ul>
+                </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>
